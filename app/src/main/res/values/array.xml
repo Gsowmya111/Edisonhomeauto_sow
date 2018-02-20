@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>GROUP</item>
+        <item>GROUP1</item>
+        <item>GROUP2</item>
+        <item>GROUP3</item>
+    </string-array>
+
+
+
+</resources>

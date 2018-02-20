@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.7">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="4"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+--------------------------------
+
+        <FrameLayout
+            android:id="@+id/fragment_place"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.6">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:orientation="vertical">
+
+
+                    1
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5">
+
+                    </LinearLayout>
+                    -----------------------------------
+                    2
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="7">
+
+                        1
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.5">
+
+                        </LinearLayout>
+
+                        2
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="3">
+
+                        </LinearLayout>
+
+                        3
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+                        4
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.9"
+                            android:padding="5dp">
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/settings_icon" />
+
+
+                        </LinearLayout>
+
+                        5
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+                        6
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.9"
+                            android:padding="5dp">
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/timer_settings" />
+
+
+                        </LinearLayout>
+
+                        7
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.3"
+                            android:orientation="horizontal"
+                            android:weightSum="3">
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    ---------------------------------------
+                    3
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.2">
+
+                    </LinearLayout>
+                    --------------------------------------------
+
+                    4
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:orientation="horizontal"
+                        android:weightSum="7">
+
+
+                        1
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.7">
+
+                        </LinearLayout>
+
+                        2
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.2">
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/all_on" />
+
+
+                        </LinearLayout>
+
+                        3
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+
+                        4
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.7">
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="center"
+                                android:text="SWITCH BOARD"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                        5
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+                        6
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.2">
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/all_off" />
+
+
+                        </LinearLayout>
+
+                        7
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.7">
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    --------------------------------------------
+
+                    5
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3">
+
+                    </LinearLayout>
+
+                    --------------------------------------------
+
+                    6
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:orientation="horizontal"
+                        android:weightSum="7">
+
+                        1
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.2">
+
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/bulb02" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.2">
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/bulb02" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.2">
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/bulb01" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    ----------------------------------------------
+
+                    7
+
+                    ------------------------------------------------
+
+                    8
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:orientation="horizontal"
+                        android:weightSum="7">
+
+                        1
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.2">
+
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/speed_down01" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.2">
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/fan02" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.2">
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/speed_up01" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    --------------------------------------------------
+
+                    9
+
+
+                    10
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:orientation="horizontal"
+                        android:weightSum="7">
+
+                        1
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.2">
+
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/bulb02" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.2">
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/zero" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.2">
+
+                            <Button
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/bulb02" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    11
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5">
+
+                    </LinearLayout>
+
+
+                    12
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3.4">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.9">
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/room_image" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2"></LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        end here
+----------------------------------------
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.3">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
